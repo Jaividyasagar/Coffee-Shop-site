@@ -25,7 +25,7 @@ amountPaid=0;
 }
 
 }
-class PhotoGrapher extends JFrame implements ActionListener //Inheriting JFrame and ActionListener
+class Swing extends JFrame implements ActionListener //Inheriting JFrame and ActionListener
 {
 
   JFrame f;
@@ -36,7 +36,7 @@ class PhotoGrapher extends JFrame implements ActionListener //Inheriting JFrame 
   JComboBox cb;
   ArrayList<Photo> list = new ArrayList<Photo>(); //creating arraylist
 
-PhotoGrapher()
+Swing()
 {
   f = new JFrame("ABC News Company"); //creating a frame
   
@@ -177,7 +177,7 @@ if(e.getSource()==b3) //if Display Photos by type is pressed
 
 public static void main(String [] args)  //main method
 {
-  PhotoGrapher s1 = new PhotoGrapher();  //creating an object for Swing class
+  Swing s1 = new Swing();  //creating an object for Swing class
 }
 }
 
