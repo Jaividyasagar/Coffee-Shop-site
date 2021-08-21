@@ -1,1 +1,1 @@
-Some Projects are here incorparated using HTML,CSS and Java Swing GUI
+Some Practiced Projects are here using HTML,CSS and Java Swing GUI.
