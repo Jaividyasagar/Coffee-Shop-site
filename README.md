@@ -1,1 +1,1 @@
-Simple and Sample Java Projects using Swing GUI are here!
+Some Projects are here incorparated using HTML,CSS and Java Swing GUI
