@@ -3,77 +3,170 @@
   <head>
     <title>The Real Coffee Shop!</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
   </head>
   <body>
     <div class="navbar">
-      <a href="index.html" target="_block"><img  class="logo" src="logo.jpg" alt="Brand Logo OF Coffee Shop" /></a>
-      <a href="#p" class="home">Home</a>
-      <a href="index.html">Coffee</a>
-      <a href="#order">Order</a>
-      <a href="index.html">About US</a>
-      <a href="index.html">Contact us</a>
+      <a class="bar" href="index.html"
+        ><img class="logo" src="logo.jpg" alt="Brand Logo OF Coffee Shop"
+      /></a>
+      <a class="bar" href="#" class="home">Home</a>
+      <a class="bar" href="#cof">Coffee</a>
+      <a class="bar" href="#order">Order</a>
+      <a class="bar" href="#aboutus">About US</a>
+      <a class="bar" href="#contactus">Contact us</a>
     </div>
     <div class="intro">
-      <h1 id="head">Welcome to The Real Coffee Shop</h1>
-      <br />
-      <br />
-      <br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br />
-      <br> <br>
-      <p id="motto">
-        A cup of Coffee losts only a moment,but it is that moment that makes
-        your day better.
-      </p>
+      <h1 id="head">Welcome! We do real Coffee's here</h1>
+      <br /><br /><br />
+      <!-- <p id="motto">A cup of coffee which makes you energetic</p>  -->
       <br />
     </div>
-    <a href="#" class="Btop">Back to the top</a>
+
     <div class="two">
-      <p id="p"> Hello</p>
+      
+      <div>
+        <p id="cof">-</p>
+        <br>
+        <p id="list-heading">The List of Coffee's We have</p>
+        <br><br>
+      <ol class="orderedlist">
+        <li id="nameofcoffee"><a href="#hiffen" class="listofcoffeename">BrookFields Hot Coffee</a> </li>
+        <br>
+        <li id="nameofcoffee"><a href="#secondcoffee" class="listofcoffeename">Phantom Cold</a></li>
+        <br>
+        <li id="nameofcoffee"><a href="#thirdcoffee" class="listofcoffeename">Swiss Green Cold</a> </li>
+        <br>
+        <li id="nameofcoffee"><a href="#fourthcoffee" class="listofcoffeename">Starbucks Special Hot Coffee</a></li>
+        <br>
+        <li id="nameofcoffee"><a href="#fifthcoffee" class="listofcoffeename">Choco Cold Coffee</a></li>
+        <br><br><br><br> <br> <br>
+      </ol>
+      </div>
+    </div>
+    <div class="brookfields">
+      <p id="hiffen">-</p>
+  
+      <h3 id="bhc">BrookFields Hot Coffee</h3>
+    </div>
+    <div class="phantom">
+      <p id="secondcoffee">-</p>
+      <h3 >Phantom Cold Coffee</h3>
+    </div>
+
+    <div class="swiss">
+      <p id="thirdcoffee">-</p>
+      <h3 >Swiss Green Cold</h3>
+    </div>
+    <div class="starbucks">
+      <p id="fourthcoffee">-</p>
+      <h3 id="starbuck">StarBucks Special Hot</h3>
+    </div>
+    <div class="choco">
+      <p id="fifthcoffee">-</p>
+      <h3 >Choco Cold Coffee</h3>
     </div>
     <div id="order" class="orders">
-      <h3 id="placeOrderHeading">Place your Order by submitting the below Details</h3>
+      <h6>--</h6>
+      <h3 id="placeOrderHeading" > <em>To place order submit the below details</em></h3>
       <br>
       <form action="">
-        <label for="name">Enter Your Name:</label>
-        <input type="text" placeholder="Name" name="order" id="">
+        <div class="form-border">
+          <br>
+          <label for="name">Your Name :</label>
+        <input type="text" required placeholder="Name"  name="order" id="">
         <br>
         <br>
-        <label for="contactno">Enter your Contact Number:</label>
+        <label for="contactno">Contact Number :</label>
         <input type="number" placeholder="Mobile Number" name="order" id="">
         <br>
         <br>
-        <label for="otp">Enter the OTP</label>
+        <label for="otp">Enter the OTP :</label>
         <input type="password" placeholder="One Time Password" name="order" id="">
         <br>
         <br>
-        <label for="email">Enter your E-Mail Address</label>
+        <label for="email">Enter your E-Mail Address :</label>
         <input type="email" placeholder="E-mail" name="order" id="">
         <br>
         <br>
         <label for="coffee">Select the Type of Coffee you Want</label>
-        <select name="order" id="">
+        <select name="order" id="dropdown">
           <option value="coffees">BrookFields Hot Coffee</option>
           <option value="coffees">Phantom Cold</option>
           <option value="coffees">Swiss Green Cold</option>
           <option value="coffees">Starbucks Special Hot</option>
-          <option value="coffees">Choco Hot Coffee</option>
+          <option value="coffees">Choco Cold Coffee</option>
         </select>
         <br>
         <br>
-        <label for="quantity">Quantity</label>
+        <label for="quantity">Quantity :</label>
         <input type="number" placeholder="No's" name="order" id="">
         <br>
         <br>
-        <label for="address">Address to be Delivered</label>
+        <label for="address">Address to be Delivered :</label>
         <br>
         <textarea name="order" placeholder="Address" id="" cols="30" rows="10"></textarea>
         <br>
         <br>
-        <a href="order.html" target="_block" id="po">Place Order</a>
+        <a href="order.html"  id="po">Place Order</a>
         <br>
         <br><br>
+        </div>
+        
       </form>
     </div>
-    
+    <div id="aboutus">
+      <br>
+      <br><br>
+      <h3 id="aboutusheading">The Real Coffee Shop - From 1975 , We have been preparing Coffee's!</h3>
+      <br>
+      <img src="Profile.jpg" alt="An Image of our Owner" class="profile">
+      <p id="about">Hey I'm Jai Vidyasagar R , Chief Executive Officer of The Real Coffee Shop.Our Coffee Shop offers a unique coffee house environment unlike any other in Macon. We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have a seating area created specifically for you. If you need to rest, we  have a soft-seating area in front of a stone fire place that is perfect for your weary mind and body. We offer a delicious variety of coffee from  made by our professionally trained baristas. We have everything from classic coffee to our house made specialty beverages.  All of our sauces & syrups are made in-house with all natural ingredients (no chemicals or preservatives) ensuring you the highest quality in taste & health.  You can complete your coffee with one of our delicious sweet treats made by our very own baker. We look forward to serving you at Taste & See Coffee Shop and Gallery!</p>
+    </div>
+    <div id="contactus">
+      <br />
+      <h3 id="head3">Our Location</h3>
+      <a href="https://maps.app.goo.gl/DqpvVnYShYGPTGYKA" target="_block"
+        ><img class="map" src="maps.png" alt="Our Location Image"
+      /></a>
+      <h3 id="head3">Follow us on these platforms</h3>
+      <br /><br />
+      <a href="https://www.facebook.com/jaividya.sagar017" target="_block"
+        ><span id="facebook"
+          ><i id="fb" class="fab fa-facebook fa-4x"> </i></span
+      ></a>
+      <a href="https://www.instagram.com/jaividyasagar/" target="_block"
+        ><span id="instagram"
+          ><i id="ins" class="fab fa-instagram fa-4x"> </i></span
+      ></a>
+      <a
+        href="https://www.youtube.com/channel/UCxdJWUuJZ-fnDdlxEXqKa_A"
+        target="_block"
+        ><span id="youtube"><i id="yt" class="fab fa-youtube fa-4x"> </i></span
+      ></a>
+      <br />
+      <br />
+      <h3 id="head3">Or else you can Mail to jaividyasagar@yahoo.com</h3>
+      <br />
+      <h4 id="head3">Message:</h4>
+      <textarea
+        name="suggestions"
+        placeholder="Type your Suggestions here"
+        id="suggest"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <button id="sendbutton">SEND</button>
+    </div>
+    <div class="outro">
+      <h2 id="out">
+        Copyright &copy 2021.All Rights reserved.JVS is an authorized trademark
+      </h2>
+    </div>
+
+    <a href="#" class="Btop"
+      ><i class="fas fa-arrow-alt-circle-up fa-2x"></i
+    ></a>
   </body>
 </html>
